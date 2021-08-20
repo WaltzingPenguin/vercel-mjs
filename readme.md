@@ -11,4 +11,5 @@ This is a monorepo designed to test support for ES6 modules when deploying to Ve
 ## Additional Test
 
 1. Deploy this repo with `/mjs` as the root directory.
-2. All API endpoints will fail when visited.
+2. Visiting `{deployment_url}/api` will work.
+3. Run locally, using `vercel dev`.  Visiting `localhost:3000/api` will not work.
